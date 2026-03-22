@@ -141,5 +141,13 @@
       </form>
     </div>
   </div>
+
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/Calendar-Appointments-PWA---Daniela-Santos/sw.js')
+      .then(reg => console.log('Service Worker registado:', reg))
+      .catch(err => console.error('Erro ao registar Service Worker:', err));
+  }
+</script>
 </body>
 </html>
