@@ -1,0 +1,24 @@
+{
+  "name": "Daniela Santos – Unhas & Estética",
+  "short_name": "Daniela App",
+  "description": "Gestão de marcações e serviços de unhas, estética e massagem",
+  // "start_url": "https://gon-ca-lo.github.io/Calendar-Appointments-PWA---Daniela-Santos/",
+  "start_url": "http://127.0.0.1:5500/index.html",
+  "display": "standalone",
+  "background_color": "#f8c8dc",
+  "theme_color": "#6b2c4f",
+  "icons": [
+    {
+      "src": "img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
